@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<form method="POST"  class="simpleform" onsubmit="return validateform()">
+<table>
+    <tr>
+        <h1>validate form</h1>
+    </tr>
+    <tr>
+        <td>Name :<td>
+        <td>
+            <input type="text" id="name">
+            <p class="error"></p>
+        </td>
+    </tr>
+    <tr>
+        <td>email :<td>
+        <td>
+            <input type="text" id="email">
+            <p class="error"></p>   
+        </td>
+    </tr>
+    <tr>
+        <td>password :<td>
+        <td>
+            <input type="text" id="password">
+            <p class="error"></p>
+        </td>
+    </tr>
+    <tr>
+        <td>confirm password :<td>
+        <td>
+            <input type="text" id="confirm_password">
+            <p class="error"></p>
+        </td>
+    </tr>
+    <tr>
+        <td>phone no :<td>
+        <td>
+            <input type="text" id="phone_no">
+            <p class="error"></p>   
+        </td>
+    </tr>
+    <tr>
+        <td>Address :<td>
+        <td>
+            <textarea cols="22" rows="4" id="add"></textarea> 
+            <p class="error"></p>   
+        </td>
+    </tr>
+    <tr> 
+        <td><button type="submit">submit</button></td>
+        </tr>
+    </table>
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>

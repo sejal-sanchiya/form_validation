@@ -1,0 +1,29 @@
+.simpleform
+{
+     text-align: center;
+     border: 1px solid black;
+     align-items: center;
+     height: 100%;
+}
+.simpleform input type
+{
+     width: 20%;
+}
+label
+{
+     font-size: 20px;
+}
+.wrong-input{
+     border: 1px solid red;
+     animation: shake 0.5s;
+     animation-iteration-count: 2;
+}
+.error
+{
+     color: red;
+     font-weight: bold;
+}
+lable address
+{
+     padding-top: 100px;
+}
