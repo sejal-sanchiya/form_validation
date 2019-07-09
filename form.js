@@ -8,6 +8,7 @@ function validateform()
     var phone_no = document.getElementById("phone_no");
     var valid=true;
     var regx = /^([a-zA-z0-9\.-]+)@([a-zA-Z0-9-]+).([a-z]{2,20})$/;
+   
     if(name.value.length==0)
     {
         name.className="wrong-input";
@@ -91,6 +92,9 @@ function validateform()
         phone_no.nextElementSibling.innerHTML="plz enter phone number";
         valid=false;
     }
-        return valid;
-
-}   
+    else
+    {
+        alert("record has been submitted");
+    }
+    return valid;
+} 

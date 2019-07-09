@@ -1,29 +1,52 @@
 .simpleform
 {
      text-align: center;
-     border: 1px solid black;
      align-items: center;
      height: 100%;
+     display: flex;
+     flex-direction: column;
+     padding: 0%;
+     margin: 0%;
+    
 }
-.simpleform input type
+.title
 {
-     width: 20%;
+     font-size: 50px;
+     font-weight: bold;
+     font-style: italic;
 }
-label
+.simpleform input
 {
-     font-size: 20px;
+     width: 40%;
 }
+
 .wrong-input{
      border: 1px solid red;
-     animation: shake 0.5s;
-     animation-iteration-count: 2;
 }
 .error
 {
      color: red;
      font-weight: bold;
 }
-lable address
-{
-     padding-top: 100px;
+
+label {
+     width: 50%;
+     text-align: left;
 }
+.name {
+     width: 100%;
+}
+.form-box {
+     width: 30%;
+     display: flex;
+    justify-content: space-between;
+}
+.form-box label{
+     padding: 0;
+     font-size: 25px;
+}  
+@media screen and (max-width: 575px) {
+     #main {
+       display: block;
+     }
+   }

@@ -8,58 +8,60 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
+    <div class="main">
 <form method="POST"  class="simpleform" onsubmit="return validateform()">
-<table>
-    <tr>
-        <h1>validate form</h1>
-    </tr>
-    <tr>
-        <td>Name :<td>
-        <td>
+    <span class="title">validate form</span>
+    <div class="form-box">
+        <label>Name:</label>
+        <div class="name">
             <input type="text" id="name">
             <p class="error"></p>
-        </td>
-    </tr>
-    <tr>
-        <td>email :<td>
-        <td>
+        </div>
+    </div>
+
+    <div class="form-box">
+        <label >email:</label>
+        <div class="name">
             <input type="text" id="email">
-            <p class="error"></p>   
-        </td>
-    </tr>
-    <tr>
-        <td>password :<td>
-        <td>
+            <p class="error"></p> 
+        </div>
+    </div>    
+
+    <div class="form-box">
+    <label>password:</label>
+        <div class="name">
             <input type="text" id="password">
             <p class="error"></p>
-        </td>
-    </tr>
-    <tr>
-        <td>confirm password :<td>
-        <td>
+        </div>
+    </div>
+
+    <div class="form-box">
+    <label>confirm password:</label>
+        <div class="name">
             <input type="text" id="confirm_password">
             <p class="error"></p>
-        </td>
-    </tr>
-    <tr>
-        <td>phone no :<td>
-        <td>
+        </div>
+    </div>
+
+    <div  class="form-box">
+    <label>phone no:</label>
+        <div class="name">
             <input type="text" id="phone_no">
-            <p class="error"></p>   
-        </td>
-    </tr>
-    <tr>
-        <td>Address :<td>
-        <td>
+            <p class="error"></p> 
+        </div> 
+    </div>  
+
+    <div  class="form-box">
+    <label>Address:</label>
+        <div class="name">
             <textarea cols="22" rows="4" id="add"></textarea> 
-            <p class="error"></p>   
-        </td>
-    </tr>
-    <tr> 
-        <td><button type="submit">submit</button></td>
-        </tr>
-    </table>
-    </form>
+            <p class="error"></p>  
+        </div> 
+    </div>
+    
+    <button type="submit">submit</button>
+</form>
+</div>
     <script src="form.js"></script>
 </body>
 </html>
